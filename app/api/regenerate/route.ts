@@ -4,7 +4,7 @@ import { DramaSchema } from '@/lib/schemas/drama';
 import { regenerateTitleTagline, regenerateCharacter, regenerateScene } from '@/lib/agents/regenerator';
 
 export const runtime = 'nodejs';
-export const maxDuration = 30;
+export const maxDuration = 300;
 
 export async function POST(request: NextRequest) {
   let body: unknown;

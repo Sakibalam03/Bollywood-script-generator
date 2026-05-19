@@ -8,13 +8,6 @@ export interface Mood {
 
 export const MOODS: Mood[] = [
   {
-    id: 'bhansali',
-    emoji: '🎭',
-    label: 'SLB Grand Opera',
-    description: 'Palatial excess, tragic love, every frame a painting',
-    prompt_anchor: 'Sanjay Leela Bhansali grand opera style: opulent sets, tragic love across class divides, slow-motion sequences, lush orchestral score, every scene a visual painting',
-  },
-  {
     id: 'karan_johar',
     emoji: '👨‍👩‍👧‍👦',
     label: 'Karan Johar Family Saga',
@@ -29,32 +22,11 @@ export const MOODS: Mood[] = [
     prompt_anchor: 'South Indian mass entertainer style: gravity-defying hero entry, slow-motion bullet-dodge, villagers cheering, thunderous background score, quotable punchline dialogue',
   },
   {
-    id: 'nolan',
-    emoji: '🤯',
-    label: 'Christopher Nolan Mindbender',
-    description: 'Time loops, whispered exposition, inverted entropy',
-    prompt_anchor: 'Christopher Nolan style: non-linear time, whispered exposition, Hans Zimmer-esque bass drops, characters who explain the plot without understanding it, an inverted twist',
-  },
-  {
     id: '90s_melodrama',
     emoji: '🌪️',
     label: '90s Bollywood Melodrama',
     description: 'Rain confrontations, Maa ka pyaar, mandir scenes',
     prompt_anchor: '90s Hindi melodrama style: thunder crashing on revelations, drenched rain confrontation, Maa sacrificing everything, mandir scene with deity witness, over-the-top emotional peaks',
-  },
-  {
-    id: 'tarantino',
-    emoji: '🤠',
-    label: 'Quentin Tarantino Pulp',
-    description: 'Verbose monologues, non-linear menace, sudden carnage',
-    prompt_anchor: 'Quentin Tarantino style: verbose pop-culture monologues, non-linear narrative jumps, sudden extreme violence, stylized chapter titles, characters who discuss mundane things before chaos',
-  },
-  {
-    id: 'wes_anderson',
-    emoji: '🎨',
-    label: 'Wes Anderson Symmetry',
-    description: 'Pastel palettes, centered shots, deadpan delivery',
-    prompt_anchor: 'Wes Anderson style: perfectly centered symmetrical compositions, pastel color palette, deadpan emotionless delivery, quirky tracking shots, characters with elaborate backstories delivered flatly',
   },
   {
     id: 'rohit_shetty',
