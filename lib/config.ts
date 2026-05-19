@@ -4,8 +4,8 @@ export const CONFIG = {
     minSituationLength: 5,
     sceneCount: { min: 3, max: 3, default: 3 },
     characterCount: { min: 2, max: 4, default: 3 },
-    llmTimeoutMs: 25_000,
-    maxRetries: 1,
+    llmTimeoutMs: 18_000,
+    maxRetries: 0,
   },
   rateLimit: {
     generationsPerHour: 20,
