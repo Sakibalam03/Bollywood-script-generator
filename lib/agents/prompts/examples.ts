@@ -54,13 +54,6 @@ OUTPUT:
       "location": "The kitchen corner where one gas cylinder sits empty",
       "key_beats": ["Maa offers her gold bangles — the last ones", "Raju refuses, vows to fix everything"],
       "assigned_characters": ["c1", "c3"]
-    },
-    {
-      "index": 3,
-      "title": "Samosa Ya Izzat",
-      "location": "The street corner samosa stall, drenched in rain",
-      "key_beats": ["Raju confronts the samosa wala who he blames", "Cathartic breakdown, wailing at the universe, thunder strikes on his punchline"],
-      "assigned_characters": ["c1"]
     }
   ],
   "poster_concept": {
@@ -101,11 +94,6 @@ OUTPUT:
       "character_id": "c1",
       "line": "Shambhu ji, aap toh jaante hain... situation thodi... complicated hai is mahine.",
       "delivery": "Eyes darting, hands working through a series of explanatory gestures that explain nothing"
-    },
-    {
-      "character_id": "c2",
-      "line": "How much do you have.",
-      "delivery": "Not a question. A ledger entry being filled in real time."
     },
     {
       "character_id": "c1",

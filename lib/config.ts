@@ -2,10 +2,10 @@ export const CONFIG = {
   generation: {
     maxSituationLength: 500,
     minSituationLength: 5,
-    sceneCount: { min: 3, max: 5, default: 4 },
+    sceneCount: { min: 3, max: 3, default: 3 },
     characterCount: { min: 2, max: 4, default: 3 },
-    llmTimeoutMs: 30_000,
-    maxRetries: 2,
+    llmTimeoutMs: 25_000,
+    maxRetries: 1,
   },
   rateLimit: {
     generationsPerHour: 20,

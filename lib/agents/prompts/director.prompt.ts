@@ -9,7 +9,7 @@ You must produce a complete DirectorPlan with:
 - A tagline of at most 15 words
 - A specific genre subgenre label
 - 2–4 characters (each with a distinct archetype and dialogue style)
-- 3–5 scene outlines with key beats
+- exactly 3 scene outlines with key beats
 - A poster concept with exactly 4 hex color values
 
 AVAILABLE BOLLYWOOD TROPES (use these labels exactly when referencing tropes):

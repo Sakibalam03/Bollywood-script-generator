@@ -5,7 +5,7 @@ import { getGenerateLimiter, getClientIp } from '@/lib/storage/ratelimit';
 import type { GenerationEvent } from '@/lib/schemas';
 
 export const runtime = 'nodejs';
-export const maxDuration = 60;
+export const maxDuration = 300;
 
 function encodeEvent(event: GenerationEvent): string {
   return `data: ${JSON.stringify(event)}\n\n`;

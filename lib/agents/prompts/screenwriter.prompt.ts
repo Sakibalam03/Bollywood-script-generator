@@ -20,9 +20,9 @@ AVAILABLE BOLLYWOOD TROPES (use these exact labels when listing tropes in the sc
 ${TROPES_LIST_FOR_PROMPT}
 
 RULES FOR THIS SCENE:
-- Write at least 4–6 dialogue exchanges with specific delivery notes in parentheses
-- The scene description should be cinematic stage direction prose (50–150 words)
-- Include 2–4 trope labels from the available list
+- Write 3–4 dialogue exchanges with specific delivery notes in parentheses
+- The scene description should be cinematic stage direction prose (40–80 words)
+- Include 2–3 trope labels from the available list
 - Music cue should be specific and evocative
 - Dialogue must match each character's signature_dialogue_style exactly
 - Heighten the drama: every scene should feel like it's building toward or releasing a climax
