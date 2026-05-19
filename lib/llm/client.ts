@@ -9,7 +9,7 @@ export function getOpenRouterClient() {
       apiKey: process.env.OPENROUTER_API_KEY ?? '',
       headers: {
         'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL ?? 'http://localhost:3000',
-        'X-Title': 'Masala Magic – Bollywood Drama Generator',
+        'X-Title': 'Masala Magic - Bollywood Drama Generator',
       },
     });
   }
