@@ -23,6 +23,7 @@ export async function regenerateTitleTagline(
     system: buildRegenTitleSystem(),
     user: buildRegenTitleUser(drama, direction),
     temperature: 0.9,
+    maxTokens: 80,
   });
 }
 
@@ -37,6 +38,7 @@ export async function regenerateCharacter(
     system: buildRegenCharacterSystem(),
     user: buildRegenCharacterUser(drama, character, direction),
     temperature: 0.9,
+    maxTokens: 220,
   });
 }
 
@@ -51,5 +53,6 @@ export async function regenerateScene(
     system: buildRegenSceneSystem(),
     user: buildRegenSceneUser(drama, scene, direction),
     temperature: 0.85,
+    maxTokens: 600,
   });
 }

@@ -19,5 +19,6 @@ export async function runDirectorAgent(input: DirectorInput): Promise<DirectorPl
     system: buildDirectorSystem(),
     user: buildDirectorUser(input.situation, moodAnchor),
     temperature: 0.9,
+    maxTokens: 900,
   });
 }

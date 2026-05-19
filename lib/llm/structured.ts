@@ -12,6 +12,7 @@ interface GenerateStructuredArgs<T extends z.ZodTypeAny> {
   user: string;
   temperature?: number;
   maxRetries?: number;
+  maxTokens?: number;
 }
 
 function extractJSON(text: string): string {
@@ -45,6 +46,7 @@ export async function generateStructured<T extends z.ZodTypeAny>(
     user,
     temperature = 0.8,
     maxRetries = CONFIG.generation.maxRetries,
+    maxTokens,
   } = args;
 
   const client = getOpenRouterClient();
@@ -72,6 +74,7 @@ IMPORTANT: Respond with ONLY a valid JSON object. No explanation, no markdown, n
           system: fullSystem,
           prompt: user,
           temperature,
+          ...(maxTokens !== undefined && { maxTokens }),
         });
 
         const result = await Promise.race([generatePromise, timeoutPromise]);

@@ -13,5 +13,6 @@ export async function runScreenwriterAgent(
     system: buildScreenwriterSystem(plan),
     user: buildScreenwriterUser(outline),
     temperature: 0.85,
+    maxTokens: 600,
   });
 }
